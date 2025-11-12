@@ -1,1 +1,16 @@
-start
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 40px;
+}
+input, button {
+  padding: 8px;
+  margin: 5px;
+}
+table {
+  margin: 20px auto;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 8px 12px;
+}
