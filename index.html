@@ -1,1 +1,29 @@
-start
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <title>Wyszukaj kraj po stolicy</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Wyszukaj kraj po stolicy</h1>
+
+  <input id="capital" type="text" placeholder="np. Warsaw">
+  <button onclick="searchCountry()">Szukaj</button>
+
+  <p id="message"></p>
+
+  <table id="result" border="1" hidden>
+    <tr>
+      <th>Name</th>
+      <th>Capital</th>
+      <th>Population</th>
+      <th>Region</th>
+      <th>Subregion</th>
+    </tr>
+    <tbody id="tbody"></tbody>
+  </table>
+
+  <script src="script.js"></script>
+</body>
+</html>
